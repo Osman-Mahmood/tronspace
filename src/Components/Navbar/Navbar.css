@@ -1,0 +1,33 @@
+.logo img{
+    height: 73px;
+    width: 90px;
+}
+.btn-menu{
+    background-image: linear-gradient(to right, #B41F24 , #1E1334 );
+    /* background-color: #b953bb; */
+    outline: none !important;
+   border: none !important;
+   border-radius: 10px;
+   box-shadow: none !important;
+   padding: 12px;
+   top: -5px;
+   position: relative;
+   
+}
+/* .btn-menu:hover{
+    color: #B41F24 !important;
+    background: #1E1334 !important;
+} */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 500 !important;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-menu{
+        margin-left: 0px !important;
+    top: 0px !important;
+
+    }
+}
